@@ -1,0 +1,44 @@
+{
+    // When enabled, insert a final new line at the end of the file when saving it.
+    "files.insertFinalNewline": true,
+
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+
+    // Arguments passed in. Each argument is a separate string in the array.
+    "flake8.args": [
+        "--config=.flake8" // Tells Flake8 to use the .flake8 file in the project root
+    ],
+
+    // The current working directory used to run `flake8`. To use the directory of the file currently being linted, you can use `${fileDirname}`.
+    "flake8.cwd": "${workspaceFolder}",
+
+    // Patterns used to exclude files or folders from being linted.
+    "flake8.ignorePatterns": [],
+
+    // Defines where `flake8` is imported from. This setting may be ignored if `flake8.path` is set.
+	//  - useBundled: Always use the bundled version of `flake8`.
+	//  - fromEnvironment: Use `flake8` from environment, fallback to bundled version only if `flake8` not available in the environment.
+    "flake8.importStrategy": "useBundled",
+
+    // When set to a path to python executable, extension will use that to launch the server and any subprocess.
+    "flake8.interpreter": [],
+
+    // When set to a path to `flake8` binary, extension will use that for linting. NOTE: Using this option may slowdown linting.
+    "flake8.path": [],
+
+    "rust-analyzer.server.path": "rust-analyzer",
+
+    // Run the check command for diagnostics on save.
+    "rust-analyzer.checkOnSave": true,
+
+    // Enable procedural macro support
+    "rust-analyzer.procMacro.enable": true,
+
+    // Defines type of the language server.
+    //  - Default: Automatically select a language server: Pylance if installed and available, otherwise fallback to Jedi.
+    //  - Jedi: Use Jedi behind the Language Server Protocol (LSP) as a language server.
+    //  - Pylance: Use Pylance as a language server.
+    //  - None: Disable language server capabilities.
+    "python.languageServer": "Default",
+}
