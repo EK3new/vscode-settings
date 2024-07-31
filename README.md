@@ -1,7 +1,7 @@
 # VSCode Settings
 Recommended VSCode Settings.
 
-# Workplace Settings
+# Workspace Settings
 Move `.vscode` directory to current workspace. If `.vscode/settings.json` already exists, add the settings manually or replace the file.
 The settings are as shown below:
 - Insert a final new line at the end of the file when saving it.
