@@ -15,9 +15,9 @@ Here is a list of extensions to install.
 python
 flake8
 rust-analyzer
+TODO Highlight v2
 ```
 Install them by executing the following codes in bash.
 ```sh
-$ chmod +x install-extensions.sh
 $ ./install-extensions.sh
 ```

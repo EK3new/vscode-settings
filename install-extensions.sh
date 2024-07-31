@@ -5,6 +5,7 @@ extensions=(
     "ms-python.python"
     "ms-python.flake8"
     "rust-lang.rust-analyzer"
+    "jgclark.vscode-todo-highlight"
 )
 
 # Install each extension
